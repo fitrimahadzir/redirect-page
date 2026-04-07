@@ -4,6 +4,7 @@ import { ExternalLink, Loader2, AlertCircle, ArrowRight } from 'lucide-react';
 
 // Configuration: Define your routes here
 const REDIRECT_ROUTES: Record<string, string> = {
+  '/redirect-exp': 'https://fitrimahadzir.my/portfoliio/redirect-exp',
   '/game1': 'https://game.fitrimahadzir.my/emojiflip',
   '/web1': 'https://webapp.fitrimahadzir.my/keriscoin',
   '/web2': 'https://webapp.fitrimahadzir.my/qulusa',
@@ -11,8 +12,8 @@ const REDIRECT_ROUTES: Record<string, string> = {
   '/app1': 'https://webapp.fitrimahadzir.my/keriswallet',
   '/media1': 'https://media.fitrimahadzir.my/kaddigital',
   '/portfolio': 'https://www.behance.net/gallery/246627031/PORTFOLIO-FITRI-MAHADZIR-(LATEST)',
-  '/cv': 'https://linkedin.com/in/myprofile',
-  '/contact': 'https://wa.me/60123456789',
+  '/resume': 'https://media.fitrimahadzir.my/resume',
+  '/contact': 'https://wa.me/601170006477',
   '/github': 'https://github.com/fitrimahadzir',
   '/': 'https://fitrimahadzir.my', // Default home redirect
 };
