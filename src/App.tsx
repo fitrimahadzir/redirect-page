@@ -19,7 +19,7 @@ const REDIRECT_ROUTES: Record<string, string> = {
 };
 
 const REDIRECT_DELAY = 1500; // Delay in milliseconds
-const DEV_MODE = true; // Set to true to disable automatic redirection
+const DEV_MODE = false; // Set to true to disable automatic redirection
 
 export default function App() {
   const [targetUrl, setTargetUrl] = useState<string | null>(null);
