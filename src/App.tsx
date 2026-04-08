@@ -4,13 +4,17 @@ import { ExternalLink, Loader2, AlertCircle, ArrowRight } from 'lucide-react';
 
 // Configuration: Define your routes here
 const REDIRECT_ROUTES: Record<string, string> = {
-  '/redirect-exp': 'https://fitrimahadzir.my/portfoliio/redirect-exp',
   '/game1': 'https://game.fitrimahadzir.my/emojiflip',
+
   '/web1': 'https://webapp.fitrimahadzir.my/keriscoin',
   '/web2': 'https://webapp.fitrimahadzir.my/qulusa',
   '/web3': 'https://webapp.fitrimahadzir.my/protonhafiz',
+  '/web4': 'https://fitrimahadzir.my/portfoliio/redirect-exp',
+  
   '/app1': 'https://webapp.fitrimahadzir.my/keriswallet',
+  
   '/media1': 'https://media.fitrimahadzir.my/kaddigital',
+  
   '/portfolio': 'https://www.behance.net/gallery/246627031/PORTFOLIO-FITRI-MAHADZIR-(LATEST)',
   '/resume': 'https://media.fitrimahadzir.my/resume',
   '/contact': 'https://wa.me/601170006477',
@@ -109,26 +113,21 @@ export default function App() {
                   animate={{ rotate: 360 }}
                   transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
                 />
-                <motion.div 
-                  className="w-16 h-16 bg-[#bbdb00] rounded-full flex items-center justify-center shadow-inner relative z-10"
-                  initial={{ scale: 0, opacity: 0 }}
-                  animate={{ 
-                    scale: [1, 1.1, 1],
-                    opacity: [1, 0.8, 1]
-                  }}
-                  transition={{ 
-                    scale: { 
-                      initial: { duration: 0.5, ease: "backOut" },
-                      animate: { duration: 2, repeat: Infinity, ease: "easeInOut" }
-                    },
-                    opacity: {
-                      initial: { duration: 0.5 },
-                      animate: { duration: 2, repeat: Infinity, ease: "easeInOut" }
-                    }
-                  }}
-                >
-                  <ExternalLink className="w-7 h-7 text-accent" />
-                </motion.div>
+               <motion.div 
+  className="w-16 h-16 bg-[#bbdb00] rounded-full flex items-center justify-center shadow-inner relative z-10"
+  initial={{ scale: 0, opacity: 0 }}
+  animate={{ 
+    scale: [1, 1.1, 1],
+    opacity: [1, 0.8, 1]
+  }}
+  transition={{ 
+    duration: 2,
+    ease: "easeInOut",
+    repeat: Infinity
+  }}
+>
+  <ExternalLink className="w-7 h-7 text-accent" />
+</motion.div>
               </div>
               
               <h1 className="text-3xl font-bold text-slate-900 mb-3">Redirecting...</h1>

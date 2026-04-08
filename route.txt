@@ -6,6 +6,8 @@ WEB
 '/web1': 'https://webapp.fitrimahadzir.my/keriscoin',
 '/web2': 'https://webapp.fitrimahadzir.my/qulusa',
 '/web3': 'https://webapp.fitrimahadzir.my/protonhafiz',
+'/web4': 'https://webapp.fitrimahadzir.my/redirect-exp',
+
 
 APP
 '/app1': 'https://webapp.fitrimahadzir.my/keriswallet',
